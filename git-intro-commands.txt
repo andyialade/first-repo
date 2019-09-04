@@ -1,0 +1,11 @@
+git init - create a new directory
+
+git clone - create a working copy of a local repository by running the command /path/to/repository
+
+git add - You can propose changes (add it to the Index) using git add <filename>
+
+git commit - File is committed to the HEAD, but not in your remote repository yet with git commit -m "Commit message"
+
+git push - To send those changes to your remote repository, execute  git push origin master
+
+git remote - To want to connect your repository to a remote server, you need to add it with git remote add origin <server>
